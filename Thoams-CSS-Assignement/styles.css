@@ -1,0 +1,137 @@
+*{
+    margin :0px;
+}
+body{
+    color : blue;
+    background-color: blanchedalmond;
+    font-family: "Franklin Gothic Medium","Arial Narrow",Arial sans-serif;
+}
+.container{
+    width: 950px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.content{
+    line-height: 1.4em;
+    padding-inline: 10px;
+}
+header,nav,footer{
+    background-color: lightblue;
+}
+nav ul{
+    margin: 0;
+    padding: 5px;
+}
+nav li{
+    display: inline-block;
+    margin:40px;
+    text-transform: Uppercase;
+}
+nav:link{
+    color: darkgoldenrod;
+}
+nav:visited{
+    color:sandybrown;
+}
+nav:hover{
+    color:deeppink;
+}
+nav:active{
+    color:darkgreen;
+}
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+h1,h2,h3{
+    margin:10px;
+    text-transform: Uppercase;
+    color:darkslategray;
+}
+.img-centre{
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+audio,video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 10px;
+    margin-bottom:10px;
+}
+table{
+    width:800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 10px;
+    margin-bottom:10px;
+}
+td,th{
+    border: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top : 2px;
+    padding-bottom:2px;
+    background-color: floralwhite;
+}
+table th, tfoot td{
+    text-transform: Uppercase;
+    background-color: springgreen;
+    color:darkblue;
+}
+dt{
+    font-styles: bold;
+}
+footer{
+    font-size:80%;
+    text-align:center;
+    padding-bottom: 1px;
+    padding-top:1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+iframe{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+}
+fieldset{
+    width:500px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    border: firebrick;
+    background-color: beige;
+}
+legend{
+    font-style: italic;
+    background-color: cyan;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-margin-top:0px;
+    padding-bottom:0px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:5;
+}
+input[type=submit]{
+    border-radius:5px;
+    padding: 5px 5px 5px 5px;
+    background-color: orange;
+    color: black;
+}
+input[type=submit]:hover{
+    color: mintcream;
+    background-color: purple;
+    cursor:pointer;
+}
